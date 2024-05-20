@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrados Coloridos em Duas Cores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="color-picker">
+        <label for="color1">Cor Base 1:</label>
+        <input type="color" id="color1" value="#ff0000">
+        <label for="color2">Cor Base 2:</label>
+        <input type="color" id="color2" value="#00ff00">
+        <button id="generate-btn">Gerar Quadrados</button>
+    </div>
+    
+    <fieldset>
+        <legend>Cores Principais</legend>
+        <div id="primary-squares-container"></div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Cores Aleatórias</legend>
+        <div id="secondary-squares-container"></div>
+    </fieldset>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

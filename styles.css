@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.color-picker {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 2px solid #00f; /* Voltando à cor original da borda */
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #00f;
+}
+
+#primary-squares-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px; /* Aumenta a margem entre os dois contêineres */
+}
+
+#secondary-squares-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.canvas-container {
+    margin-bottom: 10px;
+}
+
+.download-container {
+    display: flex;
+    justify-content: center;
+}
+
+.download-container button {
+    margin: 0 5px;
+}
