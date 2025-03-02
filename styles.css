@@ -11,7 +11,7 @@ body {
 }
 
 fieldset {
-    border: 2px solid #00f; /* Voltando à cor original da borda */
+    border: 2px solid rgb(255, 102, 0); /* Voltando à cor original da borda */
     padding: 10px 20px;
     margin-bottom: 20px;
     width: 80%;
@@ -21,7 +21,7 @@ fieldset {
 legend {
     padding: 0 10px;
     font-weight: bold;
-    color: #00f;
+    color: rgb(255, 115, 0);
 }
 
 #primary-squares-container {
