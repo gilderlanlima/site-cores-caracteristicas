@@ -1,9 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Aplicando a fonte Roboto */
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    background-color: black; /* Fundo preto */
+    color: white; /* Cor do texto branca */
 }
 
 .color-picker {
@@ -11,7 +13,7 @@ body {
 }
 
 fieldset {
-    border: 2px solid rgb(255, 102, 0); /* Voltando à cor original da borda */
+    border: 2px solid #00f; /* Cor da borda */
     padding: 10px 20px;
     margin-bottom: 20px;
     width: 80%;
@@ -21,7 +23,7 @@ fieldset {
 legend {
     padding: 0 10px;
     font-weight: bold;
-    color: rgb(255, 115, 0);
+    color: #00f; /* Cor da fonte do legend */
 }
 
 #primary-squares-container {
@@ -56,4 +58,18 @@ legend {
 
 .download-container button {
     margin: 0 5px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0; /* Remove margem para o rodapé */
+}
+
+#cloudflare-info {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff; /* Cor do texto */
 }

@@ -8,8 +8,8 @@ function createSquare(container, color1, color2, hasStripe, index) {
 
     const canvas = document.createElement('canvas');
     canvas.classList.add('square-canvas');
-    canvas.width = 30;
-    canvas.height = 30;
+    canvas.width = 35;
+    canvas.height = 35;
     canvasContainer.appendChild(canvas);
 
     const ctx = canvas.getContext('2d');
